@@ -27,6 +27,8 @@ public class HomePage extends Base {
 		l.getLogin().click();
 		System.out.println("This is a changes to the file");
 		System.out.println("I'm working on the git clone");
+		System.out.println("Second commit");
+		System.out.println("This is browser web automation");
 		
 	}
 
