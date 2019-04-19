@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="173451" started-at="2019-04-19T14:42:27Z" finished-at="2019-04-19T14:45:20Z">
+    <groups>
+    </groups>
+    <test name="App Test" duration-ms="83" started-at="2019-04-19T14:42:27Z" finished-at="2019-04-19T14:42:27Z">
+    </test> <!-- App Test -->
+    <test name="Validate Title" duration-ms="55450" started-at="2019-04-19T14:42:27Z" finished-at="2019-04-19T14:43:22Z">
+      <class name="SmokeTest.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SmokeTest.validateTitle@27462a88]" name="initialize" is-config="true" duration-ms="51574" started-at="2019-04-19T14:42:27Z" finished-at="2019-04-19T14:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppTitle()[pri:0, instance:SmokeTest.validateTitle@27462a88]" name="validateAppTitle" duration-ms="421" started-at="2019-04-19T14:43:19Z" finished-at="2019-04-19T14:43:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.validateTitle@27462a88]" name="teardown" is-config="true" duration-ms="3259" started-at="2019-04-19T14:43:19Z" finished-at="2019-04-19T14:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.validateTitle -->
+    </test> <!-- Validate Title -->
+    <test name="Validate Navigation Bar" duration-ms="29247" started-at="2019-04-19T14:43:22Z" finished-at="2019-04-19T14:43:52Z">
+      <class name="SmokeTest.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SmokeTest.validateNavigationBar@47d9a273]" name="initialize" is-config="true" duration-ms="25808" started-at="2019-04-19T14:43:22Z" finished-at="2019-04-19T14:43:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="validateAppNavigationBar()[pri:0, instance:SmokeTest.validateNavigationBar@47d9a273]" name="validateAppNavigationBar" duration-ms="720" started-at="2019-04-19T14:43:48Z" finished-at="2019-04-19T14:43:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppNavigationBar -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.validateNavigationBar@47d9a273]" name="teardown" is-config="true" duration-ms="2717" started-at="2019-04-19T14:43:49Z" finished-at="2019-04-19T14:43:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.validateNavigationBar -->
+    </test> <!-- Validate Navigation Bar -->
+    <test name="Validating User Login" duration-ms="88526" started-at="2019-04-19T14:43:52Z" finished-at="2019-04-19T14:45:20Z">
+      <class name="SmokeTest.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SmokeTest.HomePage@4c1909a3]" name="basePageNavigation" duration-ms="33236" started-at="2019-04-19T14:43:52Z" data-provider="getData" finished-at="2019-04-19T14:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonerestrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[None Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SmokeTest.HomePage@4c1909a3]" name="basePageNavigation" duration-ms="52272" started-at="2019-04-19T14:44:25Z" data-provider="getData" finished-at="2019-04-19T14:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.HomePage@4c1909a3]" name="teardown" is-config="true" duration-ms="3002" started-at="2019-04-19T14:45:17Z" finished-at="2019-04-19T14:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+20:19:08.533 [main] INFO  resources.Base - Successfully validated Navigation Bar
+20:19:35.811 [main] INFO  resources.Base - None Restrictive User
+20:20:19.360 [main] INFO  resources.Base - Restrictive User
+10:43:01.611 [main] INFO  resources.Base - Driver is initialized
+10:43:18.953 [main] INFO  resources.Base - Navigated to the home page
+10:43:19.559 [main] INFO  resources.Base - Successfully validated Title
+10:43:30.450 [main] INFO  resources.Base - Driver is initialized
+10:43:48.657 [main] INFO  resources.Base - Navigated to the home page

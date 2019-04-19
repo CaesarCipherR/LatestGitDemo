@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="133872" started-at="2019-04-18T19:58:04Z" finished-at="2019-04-18T20:00:18Z">
+    <groups>
+    </groups>
+    <test name="App Test" duration-ms="31" started-at="2019-04-18T19:58:04Z" finished-at="2019-04-18T19:58:04Z">
+    </test> <!-- App Test -->
+    <test name="Validate Title" duration-ms="28552" started-at="2019-04-18T19:58:04Z" finished-at="2019-04-18T19:58:32Z">
+      <class name="SmokeTest.validateTitle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SmokeTest.validateTitle@6e0f5f7f]" name="initialize" is-config="true" duration-ms="24804" started-at="2019-04-18T15:58:04Z" finished-at="2019-04-18T15:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="basePageNavigation()[pri:0, instance:SmokeTest.validateTitle@6e0f5f7f]" name="basePageNavigation" duration-ms="243" started-at="2019-04-18T15:58:29Z" finished-at="2019-04-18T15:58:29Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...e> but was:<...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...e> but was:<...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at SmokeTest.validateTitle.basePageNavigation(validateTitle.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.validateTitle@6e0f5f7f]" name="teardown" is-config="true" duration-ms="2609" started-at="2019-04-18T15:58:30Z" finished-at="2019-04-18T15:58:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.validateTitle -->
+    </test> <!-- Validate Title -->
+    <test name="Validate Navigation Bar" duration-ms="29347" started-at="2019-04-18T19:58:33Z" finished-at="2019-04-18T19:59:02Z">
+      <class name="SmokeTest.validateNavigationBar">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SmokeTest.validateNavigationBar@53ce1329]" name="initialize" is-config="true" duration-ms="24923" started-at="2019-04-18T15:58:33Z" finished-at="2019-04-18T15:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SmokeTest.validateNavigationBar@53ce1329]" name="basePageNavigation" duration-ms="833" started-at="2019-04-18T15:58:57Z" finished-at="2019-04-18T15:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.validateNavigationBar@53ce1329]" name="teardown" is-config="true" duration-ms="3583" started-at="2019-04-18T15:58:58Z" finished-at="2019-04-18T15:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.validateNavigationBar -->
+    </test> <!-- Validate Navigation Bar -->
+    <test name="Validating User Login" duration-ms="75864" started-at="2019-04-18T19:59:02Z" finished-at="2019-04-18T20:00:18Z">
+      <class name="SmokeTest.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SmokeTest.HomePage@4dbb42b7]" name="basePageNavigation" duration-ms="30748" started-at="2019-04-18T15:59:02Z" data-provider="getData" finished-at="2019-04-18T15:59:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonerestrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[None Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SmokeTest.HomePage@4dbb42b7]" name="basePageNavigation" duration-ms="40590" started-at="2019-04-18T15:59:33Z" data-provider="getData" finished-at="2019-04-18T16:00:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restrictiveuser@facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678910]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restrictive User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SmokeTest.HomePage@4dbb42b7]" name="teardown" is-config="true" duration-ms="4426" started-at="2019-04-18T16:00:13Z" finished-at="2019-04-18T16:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SmokeTest.HomePage -->
+    </test> <!-- Validating User Login -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="SmokeTest.listeners"/>
+  </listeners>
+  <test name="App Test">
+    <classes>
+      <class name="SmokeTest.AppTest"/>
+    </classes>
+  </test> <!-- App Test -->
+  <test name="Validate Title">
+    <classes>
+      <class name="SmokeTest.validateTitle"/>
+    </classes>
+  </test> <!-- Validate Title -->
+  <test name="Validate Navigation Bar">
+    <classes>
+      <class name="SmokeTest.validateNavigationBar"/>
+    </classes>
+  </test> <!-- Validate Navigation Bar -->
+  <test name="Validating User Login">
+    <classes>
+      <class name="SmokeTest.HomePage"/>
+    </classes>
+  </test> <!-- Validating User Login -->
+  <test name="Validate Title(failed)">
+    <classes>
+      <class name="SmokeTest.HomePage">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SmokeTest.HomePage -->
+      <class name="SmokeTest.validateNavigationBar">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- SmokeTest.validateNavigationBar -->
+      <class name="SmokeTest.validateTitle">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SmokeTest.validateTitle -->
+    </classes>
+  </test> <!-- Validate Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->
