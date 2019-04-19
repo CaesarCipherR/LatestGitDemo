@@ -25,6 +25,8 @@ public class HomePage extends Base {
 		log.info(text);
 		LoginPage l = new LoginPage(driver);
 		l.getLogin().click();
+		System.out.println("This is a changes to the file");
+		System.out.println("I'm working on the git clone");
 		
 	}
 
