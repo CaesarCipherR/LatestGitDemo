@@ -1,8 +1,8 @@
-19:43:24.877 [main] INFO  resources.Base - Successfully validated Navigation Bar
-19:43:54.624 [main] INFO  resources.Base - None Restrictive User
-19:44:46.439 [main] INFO  resources.Base - Restrictive User
-20:18:24.786 [main] INFO  resources.Base - Driver is initialized
-20:18:43.109 [main] INFO  resources.Base - Navigated to the home page
-20:18:43.564 [main] INFO  resources.Base - Successfully validated Title
-20:18:53.657 [main] INFO  resources.Base - Driver is initialized
-20:19:08.339 [main] INFO  resources.Base - Navigated to the home page
+20:19:08.533 [main] INFO  resources.Base - Successfully validated Navigation Bar
+20:19:35.811 [main] INFO  resources.Base - None Restrictive User
+20:20:19.360 [main] INFO  resources.Base - Restrictive User
+10:43:01.611 [main] INFO  resources.Base - Driver is initialized
+10:43:18.953 [main] INFO  resources.Base - Navigated to the home page
+10:43:19.559 [main] INFO  resources.Base - Successfully validated Title
+10:43:30.450 [main] INFO  resources.Base - Driver is initialized
+10:43:48.657 [main] INFO  resources.Base - Navigated to the home page
